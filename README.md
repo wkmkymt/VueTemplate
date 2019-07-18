@@ -1,17 +1,31 @@
-# My Vue Template
+# Vue CLI3 Template
 
-## Scripts
+## Project setup
 
-~~~sh
-# Build the app
-$ yarn build
+```sh
+yarn
+```
 
-# Build and Watch the app
-$ yarn watch
+### Compiles and hot-reloads for development
 
-# Run the app in localhost
-$ yarn start
+```sh
+yarn serve
+```
 
-# Remove builded files
-$ yarn clean
-~~~
+### Compiles and minifies for production
+
+```sh
+yarn build
+```
+
+### Lints and fixes files
+
+```sh
+yarn lint
+```
+
+### Server start
+
+```sh
+yarn start
+```

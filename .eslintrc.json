@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": ["plugin:vue/essential", "@vue/prettier"],
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "useTabs": false,
+        "printWidth": 100,
+        "tabWidth": 2,
+        "singleQuote": true,
+        "semi": false,
+        "arrowParens": "avoid",
+        "trailingComma": "none",
+        "jsxBracketSameLine": false
+      }
+    ]
+  }
+}
